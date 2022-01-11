@@ -1,0 +1,89 @@
+.section-team{
+    background: #F5F4FA;
+
+}
+.title{ 
+   font-size:36px;
+   line-height:1.16 ;
+   text-align: center;
+   letter-spacing: 0.03em;
+   margin-bottom: 50px;
+}
+
+.team-list{
+    display: flex; 
+  
+    &__item{
+        margin-right: 30px;
+    }
+    &__item:last-child{
+        margin-right: 0px;
+    }
+
+    &__box{
+        box-shadow: var(--card-shadow);
+        border-radius: 4px;
+        overflow: hidden;
+        background-color: #ffffff;
+        padding: 30px 0;
+        text-align: center;
+    }
+    &__name{
+        font-weight: 500;
+        font-size:16px;
+        line-height:1.18;
+        letter-spacing: 0.03em;
+    }  
+    &__profession{
+    color: var(--primary-text-color);
+    font-size: 16px;
+    line-height: 1.18;  
+    letter-spacing: 0.03em;
+    margin-top: 10px;
+    margin-bottom: 16px; 
+    }
+}
+
+.network-list{
+    display: flex;
+    justify-content: center;
+
+    &__item{
+        margin-right: 10px;
+    }
+    &__item:last-child{
+        margin-right: 0px;
+    }
+    &__link{
+    display: flex;
+    align-items: center;
+    justify-content: center;        
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;       
+    cursor: pointer; 
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function:  cubic-bezier(0.4, 0, 0.2, 1) ;    
+    }
+    &__link:hover,
+    &__link:focus{
+    background-color: var(--accent-color);    
+    }
+    &__link-style{
+    background: rgba(255, 255, 255, 0.1);
+    }            
+                
+    &__ico{
+    display: flex;  
+    width: 20px;
+    height: 20px;
+    }
+    &__ico_style{
+    fill:#AFB1B8 ;
+    }
+    &__link:hover svg,
+    &__link:focus svg{
+    fill:#FFFFFF ;
+    }
+}
