@@ -9,26 +9,28 @@
         margin-right: 30px;
         margin-bottom: 30px;
 
-    }
-    .card-item:nth-child(3n){
+    
+    &:nth-child(3n){
         margin-right: 0px;
         
     }
 
-    .card-item:nth-last-child(-n+3){
+    &:nth-last-child(-n+3){
         margin-bottom: 0px;
     }
+}
     .card-item__link{
         text-decoration: none;
         display: block;
         transition-property: box-shadow;
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    }
-    .card-item__link:hover,
-    .card-item__link:focus{
+    
+    &:hover,
+    &:focus{
         box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
     }
+}
     .card-item__link:hover .card-item__background-thumb,
     .card-item__link:focus .card-item__background-thumb{
         transform: translatey(0%);

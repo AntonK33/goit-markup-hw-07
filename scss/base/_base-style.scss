@@ -1,12 +1,4 @@
-.heder-style{
-    border: 1px solid;
-    height: 80px;
-    display: flex;
-    border-color:  #ECECEC;
-    align-items: center;
-   
 
-}
 
 
 
@@ -25,3 +17,11 @@
 .section{
     padding: 94px 0;
 }
+.section__title{
+        font-weight: 700;
+        font-size:36px;
+        line-height:1.16;
+        text-align: center;
+        letter-spacing: 0.03em;
+        margin-bottom: 50px;
+    }

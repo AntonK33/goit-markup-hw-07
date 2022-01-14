@@ -1,8 +1,9 @@
-.section-team{
+.section__color{
     background: #F5F4FA;
 
 }
-.title{ 
+.section__title{ 
+    font-weight: 700;
    font-size:36px;
    line-height:1.16 ;
    text-align: center;
@@ -10,17 +11,17 @@
    margin-bottom: 50px;
 }
 
-.team-list{
+.team{
     display: flex; 
   
-    &__item{
+    .team__item{
         margin-right: 30px;
     }
     &__item:last-child{
         margin-right: 0px;
     }
 
-    &__box{
+    .team__box{
         box-shadow: var(--card-shadow);
         border-radius: 4px;
         overflow: hidden;
@@ -28,33 +29,33 @@
         padding: 30px 0;
         text-align: center;
     }
-    &__name{
+    .team__title{
         font-weight: 500;
         font-size:16px;
         line-height:1.18;
         letter-spacing: 0.03em;
     }  
-    &__profession{
-    color: var(--primary-text-color);
-    font-size: 16px;
-    line-height: 1.18;  
-    letter-spacing: 0.03em;
-    margin-top: 10px;
-    margin-bottom: 16px; 
+    .team__profession{
+        color: var(--primary-text-color);
+        font-size: 16px;
+        line-height: 1.18;  
+        letter-spacing: 0.03em;
+        margin-top: 10px;
+        margin-bottom: 16px; 
     }
 }
 
-.network-list{
+.network{
     display: flex;
     justify-content: center;
 
-    &__item{
+    .network__item{
         margin-right: 10px;
     }
     &__item:last-child{
         margin-right: 0px;
     }
-    &__link{
+    .network__link{
     display: flex;
     align-items: center;
     justify-content: center;        
@@ -70,16 +71,16 @@
     &__link:focus{
     background-color: var(--accent-color);    
     }
-    &__link-style{
+    .network__link-style{
     background: rgba(255, 255, 255, 0.1);
     }            
                 
-    &__ico{
+    .network__ico{
     display: flex;  
     width: 20px;
     height: 20px;
     }
-    &__ico_style{
+    .network__ico_style{
     fill:#AFB1B8 ;
     }
     &__link:hover svg,

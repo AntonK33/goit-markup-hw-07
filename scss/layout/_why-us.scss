@@ -12,7 +12,7 @@
 
 
 
-.domination-list{
+.advantage{
     display: flex;
 
 
@@ -20,14 +20,14 @@
         margin-left: 0px;
         padding-left: 0px;
     }
-    &__item{
+    .advantage__item{
         margin-right: 30px;
     }
     &__item:last-child{
         margin-right: 0px;
     }
 
-    &__icon-box{
+    .advantage__icon-box{
         height: 120px;
         width: 270;
         background: #F5F4FA;
@@ -38,7 +38,7 @@
         justify-content: center;
 
     }
-    &__icon{
+    .advantage__icon{
         display: flex;
         width: 70px;
         height: 70px;
@@ -46,7 +46,7 @@
 
 
 
-    &__title{  
+    .advantage__title{  
         font-weight: 700;
         font-size: 14px;
         line-height:1.14;
@@ -57,7 +57,7 @@
 
     }
 
-    &__text{
+    .advantage__text{
         color:var(--primary-text-color);
         font-size: 14px;
         line-height:1.7;
